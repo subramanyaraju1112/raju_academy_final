@@ -1,0 +1,11 @@
+
+
+.navbar-toggler {
+    width: 100px;
+}
+
+@media screen and (max-width: 991px) {
+    .search-section {
+        padding-top: 1rem;
+    }
+}

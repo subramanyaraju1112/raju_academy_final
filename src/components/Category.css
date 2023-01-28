@@ -1,0 +1,33 @@
+.category {
+    display: flex;
+    flex-direction: column;
+}
+
+.subjects {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+.subjects h4 {
+    text-decoration: underline;
+    color: #64a1fd;
+    padding-bottom: 1rem;
+}
+.subjects h4:hover{
+    cursor: pointer;
+}
+
+.category-subjects {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.category-heading h3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}

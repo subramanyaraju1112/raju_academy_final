@@ -1,0 +1,25 @@
+.footer {
+    position:relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-sections {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.section {
+    padding-bottom: 0.5rem;
+}
+
+.main-footer {
+    background-color: #b4d2ff;
+}
+
+.list:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}

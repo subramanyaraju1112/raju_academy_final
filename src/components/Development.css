@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    border: 1px #b4d2ff;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 3px;
+    gap: 1rem;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+.complete-courses {
+    display: flex;
+    flex-wrap:wrap;
+    gap: 1rem;
+    position: relative;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+.image img{
+    max-width: 60%;
+}
+.sentence {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.bottom p {
+    align-content: center;
+}
+
+.price {
+    font-weight: 700;
+}

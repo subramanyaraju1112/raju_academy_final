@@ -1,0 +1,27 @@
+.container {
+    align-items: center;
+    margin-top: 20ex;
+    width: 40ex;
+    padding: 1rem;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+button {
+    width: 50%;
+}
+
+.forgot-password {
+    display: flex;
+    justify-content: center;
+}
+
+u {
+    color: #0d6efd;
+}
+
+u:hover {
+    cursor: pointer;
+}

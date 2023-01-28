@@ -1,0 +1,26 @@
+.container {
+    align-items: center;
+    margin-top: 20ex;
+    width: 60ex;
+    padding: 2rem;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+
+}
+
+.acc {
+    display: flex;
+    justify-content: center;
+}
+
+u {
+    color: #0d6efd;
+}
+
+u:hover {
+    cursor: pointer;
+}
